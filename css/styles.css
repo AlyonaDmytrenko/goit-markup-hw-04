@@ -65,7 +65,7 @@ img {
 
 .header {
   border-bottom: 1px solid #e7e9fc;
-   box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
+  box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
  
 }
 
@@ -109,6 +109,7 @@ img {
 }
 
 .header-list-item {
+  
 }
 
 .header-list-link {
@@ -123,7 +124,7 @@ img {
   position: relative;
 }
 
-.header-list-link:hover::after {
+.header-list::after {
   content: '';
   position: absolute;
   width: 48px;
@@ -355,7 +356,7 @@ img {
 
 .team-social-link:hover,
 .team-social-link:focus {
-  background-color: #31d0aa;
+   background-color: #404bbf;
 }
 .team-social-icon {
 }
