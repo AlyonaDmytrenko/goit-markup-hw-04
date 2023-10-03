@@ -406,7 +406,10 @@ img {
   overflow: hidden;
   
 }
+.portfolio-item:hover .portfolio-cover-text {
+  transform: translateY(0%);
 
+}
 
 
 .portfolio-cover-text {
