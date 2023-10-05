@@ -546,3 +546,26 @@ img {
 .footer-social-icon {
 }
 /* ======  ====== */
+
+/* ====== Модальне вікно ====== */
+.hero-backdrop {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(46, 47, 66, 0.4);
+}
+
+.hero-modal {
+  width: 408px;
+  height: 584px;
+  border-radius: 4px;
+  background-color: #fcfcfc;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 24px;
+}
+
+/* ======  ====== */
